@@ -1,0 +1,120 @@
+.gtamLogo {
+	width: 102px;
+	height: 685px;
+	left: 16px;
+	top: 17px;
+}
+
+.gameCapture {
+	width: 552px;
+	height: 318px;
+}
+
+#gameCapture1 {
+	left: 170px;
+	top: 0px;
+}
+
+#gameCapture2 {
+	left: 728px;
+	top: 0px;
+}
+
+#gameCapture3 {
+	left: 728px;
+	top: 401px;
+	height: 319px;
+}
+
+#runInformationGameName {
+	width: 590px;
+	height: 45px;
+	left: 131px;
+	top: 451px;
+	font-size: 20px;
+}
+
+#runInformationGameCategory {
+	width: 590px;
+	height: 46px;
+	left: 131px;
+	top: 536px;
+	font-size: 20px;
+}
+
+#runnerInfo1 {
+	width: 490px;
+	height: 41px;
+	left: 170px;
+	top: 318px;
+	font-size: 20px;
+}
+
+#runnerInfo2 {
+	width: 496px;
+	height: 41px;
+	left: 784px;
+	top: 318px;
+	font-size: 20px;
+}
+
+#runnerInfo3 {
+	width: 496px;
+	height: 41px;
+	left: 784px;
+	top: 360px;
+	font-size: 20px;
+}
+
+#timerContainer {
+	width: 590px;
+	height: 86px;
+	left: 131px;
+	top: 622px;
+}
+
+#timer {
+	top: 10px;
+	font-size: 60px;
+	text-align: left;
+	left: 20px;
+}
+
+#runInformationGameEstimate {
+	top: -40px;
+	font-size: 30px;
+	text-align: right;
+	right: 20px;
+}
+
+.nameHeader {
+	font-size: 20px;
+}
+
+#gameNameHeader {
+	left: 131px;
+	top: 411px;
+	width: 590px;
+	height: 40px;
+}
+
+#categoryNameHeader {
+	left: 131px;
+	top: 496px;
+	width: 590px;
+	height: 40px;
+}
+
+#runnerNameHeader {
+	left: 661px;
+	top: 318px;
+	width: 122px;
+	height: 82px;
+}
+
+#timerHeader {
+	left: 131px;
+	top: 582px;
+	width: 590px;
+	height: 40px;
+}

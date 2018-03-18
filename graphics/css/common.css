@@ -1,0 +1,148 @@
+/* probably not needed anymore but leaving here as an example */
+/*@font-face {
+	font-family: "Eurostile LT Std Ext Two";
+	src: url("../images/EurostileLTStd-BoldEx2.otf") format("opentype");
+}*/
+
+body {
+	font-family: "Arial";
+	font-weight: bold;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+
+#window-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1280px;
+	height: 720px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gtamLogo {
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#gtamLogoNormal {
+	background-image: url('../images/gtam-logo.png');
+}
+
+#gtamLogoTall {
+	background-image: url('../images/gtam-logo-tall.png');
+}
+
+.gameCapture {
+	position: fixed;
+	background-color: #00ff00;
+}
+
+.runInformation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+	position: fixed;
+	line-height: 100%;
+}
+
+#runInformationGameName, #runInformationGameCategory {
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.runnerInfo {
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	white-space: nowrap;
+}
+
+#timerContainer {
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#timer {
+	position: relative;
+	text-align: center;
+}
+
+/* timer_* might need changing sometime */
+.timer_paused {
+	color: yellow;
+}
+
+.timer_running {
+	color: white;
+}
+
+.timer_stopped {
+	color: gray;
+}
+
+.timer_finished {
+	color: #00bce2;
+}
+
+#runInformationGameEstimate {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#runInformationGameEstimate:before {
+	content: 'EST: ';
+}
+
+#runInformationGameEstimate:after {
+	content: ':00';
+}
+
+.runnerTimerFinishedContainer {
+	position: fixed;
+	display: flex;
+	overflow: hidden;
+}
+
+.finishedLogo {
+	position: relative;
+	height: 100%;
+	background-image: url('../images/finishFlag.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+/* for the big headings above/by the relevant info */
+.nameHeader {
+	background-color: black;
+	text-align: center;
+	position: fixed;
+}
+
+#gameNameHeader {
+	
+}
+
+#categoryNameHeader {
+	
+}
+
+#runnerNameHeader {
+	
+}
+
+#timerHeader {
+	
+}
