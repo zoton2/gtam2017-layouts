@@ -1,23 +1,10 @@
 {
-  "name": "gtam2017",
-  "version": "0.0.0",
-  "description": "",
-  "homepage": "",
+  "name": "gtam2017-layouts",
+  "version": "1.0.0",
   "author": {
     "name": "zoton2",
-    "email": "zoton2@gmail.com",
-    "url": ""
+    "email": "zoton2@gmail.com"
   },
-  "files": [
-    "dashboard",
-    "graphics",
-    "extension.js",
-    "extension"
-  ],
-  "keywords": [
-    "",
-    "nodecg-bundle"
-  ],
   "nodecg": {
     "compatibleRange": "~0.9.0",
     "dependencies": [
@@ -70,6 +57,5 @@
         "height": 720
       }
     ]
-  },
-  "license": "Apache-2.0"
+  }
 }
